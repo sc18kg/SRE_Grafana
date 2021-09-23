@@ -18,8 +18,9 @@ Here you want to add the following code at EOF:
 deb https://packagecloud.io/grafana/stable/debian/ stretch main
 ```
 6. Press `Ctrl + x `then `y` and `Enter` to save
-7. run the command `curl https://packagecloud.io/gpg.key | sudo apt-key add -`
+7. run the commands:
 ```
+curl https://packagecloud.io/gpg.key | sudo apt-key add -
 sudo wget https://s3-us-west-2.amazonaws.com/grafana-releases/release/grafana_5.2.4_amd64.deb
 sudo dpkg -i grafana-enterprise_8.1.5_amd64.deb
 sudo apt-get install grafana
