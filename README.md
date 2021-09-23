@@ -1,5 +1,16 @@
 # SRE AWS instance with CloudWatch linked to Grafana
 
+## What is Grafana
+Grafana is an open source solution for running data analytics, pulling up metrics that make sense of the massive amount of data & to monitor our apps with the help of cool customizable dashboards.
+
+Grafana connects with every possible data source, commonly referred to as databases such as Graphite, Prometheus, Influx DB, ElasticSearch, MySQL, PostgreSQL etc.
+
+Grafana being an open source solution also enables us to write plugins from scratch for integration with several different data sources.
+
+The tool helps us study, analyse & monitor data over a period of time, technically called time series analytics.
+
+It helps us track the user behaviour, application behaviour, frequency of errors popping up in production or a pre-prod environment, type of errors popping up & the contextual scenarios by providing relative data.
+
 ## Set-up
 1. Create a new `Ubuntu 18.04` EC2 instance in `eu-west-1`
 2. In order to connect grafana to AWS the aws access and secret keys are required
