@@ -66,9 +66,9 @@ You should be met with the following selections:
 ```
 Authentication Provider : Credentials file
 Credentials Profile Name :
-Assume Role ARN:
+Assume Role ARN: arn:aws:iam::enter your user id here
 External ID:
 Endpoint: https://{service}.{region}.amazonaws.com
-Default Region:
+Default Region: eu-west-1
 Namespaces of Custom Metrics:
 ```
